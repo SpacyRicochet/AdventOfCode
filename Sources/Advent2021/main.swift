@@ -25,7 +25,19 @@ switch commands {
         print(try AdventOfCode2021.Day5().runPart1())
     case ["day5", "part2"]:
         print(try AdventOfCode2021.Day5().runPart2())
-        
+    case ["day6", "part1"]:
+        print(try AdventOfCode2021.Day6().runPart1())
+    case ["day6", "part2"]:
+        print(try AdventOfCode2021.Day6().runPart2())
+    case ["day7", "part1"]:
+        print(try AdventOfCode2021.Day7().runPart1())
+    case ["day7", "part2"]:
+        print(try AdventOfCode2021.Day7().runPart2())
+    case ["day8", "part1"]:
+        print(try AdventOfCode2021.Day8().runPart1())
+    case ["day8", "part2"]:
+        print(try AdventOfCode2021.Day8().runPart2())
+
     case []:
         print("No subcommand given"); exit(1)
     default:

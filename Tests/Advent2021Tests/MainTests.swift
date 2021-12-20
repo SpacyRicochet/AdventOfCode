@@ -33,6 +33,21 @@ class MainTests: XCTestCase {
         XCTAssertEqual(try runAdventCommand(arguments: ["day5", "part1"]), "6666\n")
         XCTAssertEqual(try runAdventCommand(arguments: ["day5", "part2"]), "19081\n")
     }
+
+    func test2021Day6() throws {
+        XCTAssertEqual(try runAdventCommand(arguments: ["day6", "part1"]), "372984\n")
+        XCTAssertEqual(try runAdventCommand(arguments: ["day6", "part2"]), "1681503251694\n")
+    }
+
+    func test2021Day7() throws {
+        XCTAssertEqual(try runAdventCommand(arguments: ["day7", "part1"]), "357353\n")
+        XCTAssertEqual(try runAdventCommand(arguments: ["day7", "part2"]), "104822130\n")
+    }
+
+    func test2021Day8() throws {
+        XCTAssertEqual(try runAdventCommand(arguments: ["day8", "part1"]), "495\n")
+        XCTAssertEqual(try runAdventCommand(arguments: ["day8", "part2"]), "1055164\n")
+    }
 }
 
 // - MARK: Helpers
